@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOS</title>
+    <link rel="stylesheet" href="/css/had.css">
+    <link rel="stylesheet" href="/css/demo.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/ty.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="js/script.js"></script>
+    <link rel="icon" href="logo/logo.png">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo/logo.png" alt="Wecheck logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Прямые эфиры</a></li>
+                <li><a href="#">Ассортимент</a></li>
+                <li><a href="#">Конкуренты</a></li>
+                <li><a href="#">Заказать отчет</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="root"></div>
+    <script src="index.js"></script>
+
+<!-- 0 -->
+    <section class="banner">
+        <h1>
+            Следите за продажами конкурентов на 
+            <span class="highlight">WILDBERRIES</span><br> и 
+            <span class="highlight ozon-container">
+                OZON
+                <span class="soon-wrapper">
+                    <img src="logo/Скоро110.png" alt="Скоро" class="soon-label">
+                    <span class="tooltip">Площадка OZON будет доступна в ближайшее время</span>
+                </span>
+            </span> 
+            при помощи платформы Wecheck
+        </h1>        
+    </section>
+    
+<!-- 1 -->
+    <div class="banner-1">
+        <canvas id="myChart"></canvas> 
+        <div class="group-397">
+            <div class="frame-225">
+                <div class="frame-226">
+                    <span>Покликать демо-версию</span>
+                </div>
+                <span class="sectionreg-title">Зарегистрироваться на платформе</span>
+            </div>
+        
+            <div class="frame-229">
+                <span class="section-title">Подробная аналитика</span>
+                <span class="section-description">Следите за динамикой продаж в каждой категории и выявляйте актуальные тренды</span>
+            </div>
+        
+            <div class="frame-228">
+                <span class="section-title">Продажи по дням</span>
+                <span class="section-description">Следите за положением карточки товара за день и вовремя принимайте меры</span>
+            </div>
+        
+            <div class="frame-230">
+                <span class="section-title">Наглядное сравнение</span>
+                <span class="section-description">Изучайте, где сосредоточены основные продажи, а где самый высокий средний чек</span>
+            </div>
+        </div>
+    </div>
+
+<!-- 2 -->
+    <div class="container-2">
+        <div class="content">
+            <div class="header-2">
+                <h1>Изучайте продажи конкурентов, <br>следите за трендами, подбирайте <br>для себя нишу</h1>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <h2>Узнайте продажи конкурентов</h2>
+                    <p>Покажем, сколько продаж каждого товара, бренда или категории в рублях и штуках было на wildberries и ozon. Определите объем рынка, вашу долю на нем и размеры конкурентов.</p>
+                </div>
+                <div class="column">
+                    <h2>Следите за трендами и нишами</h2>
+                    <p>Покажем, какие категории и бренды набирают обороты, а какие стали продаваться плохо. Принимайте решения о закупках или запускайте новые категории на основе реальных данных.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h2>Изучайте выдачу в каталоге</h2>
+                    <p>Покажем динамику позиций каждого товара в каталоге и по поисковым запросам. Анализируйте, какие товары покупатели видят в первую очередь.</p>
+                </div>
+                <div class="column">
+                    <h2>Реагируйте на цены</h2>
+                    <p>Наглядно отразим, в каких сегментах демпинг, а какие продавцы повышают цены. Изучите стратегии конкурентов и скорректируйте свое ценообразование.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="logo/Layer.png" alt="анализ конкурентов">
+        </div>
+    </div>
+    
+<!-- 3 -->
+    <div class="container-3">
+        <h2 class="slider-title">Weсheck — это новый уровень <br>аналитики рынка</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Показываем продажи по датам</h3>
+                        <p class="hidden">Анализируем, как меняются продажи в зависимости от времени. Помогаем определить лучшие дни для скидок, акций и повышения цен.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Следим за новыми поступлениями и Sold out</h3>
+                        <p class="hidden">Мгновенно узнавайте о появлении новых товаров и следите за тем, какие позиции распроданы, чтобы вовремя пополнять склад.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Анализируем по брендам или продавцам</h3>
+                        <p class="hidden">Сравниваем динамику продаж у разных брендов и продавцов. Выявляем, кто держит цены, а кто устраивает распродажи.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Изучаем динамику продаж</h3>
+                        <p class="hidden">Покажем, какие продавцы повышают цены, а у каких брендов активная распродажа. Увеличивайте маржу за счёт управления промо на основе данных о конкурентах.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Цены</h3>
+                        <p class="hidden">Отслеживайте изменения цен на товары. Определяйте оптимальные стратегии ценообразования для увеличения прибыли.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Детальная аналитика</h3>
+                        <p class="hidden">Все продажи на одном экране. Гибкие отчёты и фильтры позволяют анализировать данные и находить скрытые тренды.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Тренды</h3>
+                        <p class="hidden">Выявляем самые популярные товары. Следите за тем, какие позиции пользуются спросом и какие тренды набирают обороты.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="card">
+                        <h3>Конкуренты</h3>
+                        <p class="hidden">Сравниваем топовые бренды, оцениваем их стратегию продаж и ценообразования. Помогаем находить конкурентные преимущества.</p>
+                        <button class="more-btn">Подробнее</button>
+                    </div>
+                </div>                
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div> -->
+        </div>
+    </div>
+
+<!-- 4 -->
+    <div class="container-4">
+        <h2 class="gg444">Как это работает</h2>
+        <div class="steps-wrapper">
+            <img src="logo/Vector 4.svg" alt="пунктирная линия 1" class="line line-1">
+            <img src="logo/Vector 5.svg" alt="пунктирная линия 2" class="line line-2">
+            <div class="step">
+                <img src="logo/scan.png" alt="scan" class="icon">
+                <p>
+                    Ежедневно сканируем все<br>товары и выдачу на<br>
+                    <span class="highlight">WILDBERRIES</span> и 
+                    <span class="highlight ozon-container">
+                        OZON
+                        <span class="soon-wrapper">
+                            <img src="logo/Скоро110.png" alt="Скоро" class="soon-label-4">
+                            <span class="tooltip">Площадка OZON будет доступна в ближайшее время</spыan>
+                        </span>
+                    </span>
+                </p>
+            </div>
+            <div class="step">
+                <img src="logo/date.png" alt="data" class="icon">
+                <p>Собранные данные<br>формируем в удобные<br>📈 графики и 📒 отчеты<br>в личном кабинете</p>
+            </div>
+            <div class="step">
+                <img src="logo/compare.png" alt="compare" class="icon">
+                <p>Сравнивайте данные за<br>разные периоды,<br>анализируйте категории,<br>бренды или товары 🔥🔥🔥</p>
+            </div>
+        </div>
+    </div>
+
+<!-- 5 -->
+    <div class="container-5">
+        <h2 class="title-5">Для кого подойдет WeCheck</h2>
+        <div class="grid-5">
+            <div class="card-5">
+                <img src="logo/Group1.png" alt="Head of ecommerce/ CMO">
+                <h3>Head of ecommerce/ CMO</h3>
+                <p>Получать регулярную информацию о деятельности конкурентов. Отчет поможет эффективней планировать свои маркетинговые мероприятия, быть в курсе активностей конкурентов, следить за тем, в какие направления инвестируют игроки.</p>            
+            </div>
+            <div class="card-5">
+                <img src="logo/Group2.png" alt="Собственник бизнеса">
+                <h3>Собственник бизнеса</h3>
+                <p>Получить независимый взгляд на свой бизнес. Отчет поможет сравнить показатели и динамику развития своего бизнеса с бизнесом конкурентов, оценить качество работы отделов.</p>
+            </div>
+            <div class="card-5">
+                <img src="logo/Group3.png" alt="Руководителю рекламного агенства">
+                <h3>Руководителю рекламного агенства</h3>
+                <p>Провести детальный конкурентный анализ при планировании стратегии продвижения для своих клиентов. Отчет поможет сформировать идеи для позиционирования и отстройки от конкурентов, в том числе и в медийных и perfomance кампаниях.</p>
+            </div>
+            <div class="card-5">
+                <img src="logo/Group4.png" alt="Руководителю на новом месте работы">
+                <h3>Руководителю на новом месте работы</h3>
+                <p>Увидеть объективную картину работы бизнеса. Отчет поможет сформировать вектор развития, расставить приоритеты, понять свои сильные стороны и выявить моменты, которые лучше работают у конкурентов.</p>
+            </div>
+            <div class="card-5">
+                <img src="logo/Group5.png" alt="Предпринимателю при запуске бизнеса">
+                <h3>Предпринимателю при запуске бизнеса</h3>
+                <p>Выявить основных игроков и понять расстановку сил на рынке. Отчет поможет разобраться, какие инструменты, каналы и технологии используют конкуренты, сформировать бенчмарки и определить цели.</p>
+            </div>
+        </div>
+    </div>
+
+<!-- 6 -->
+
+   <div class="tariffs-container">
+       <div class="tariffs-header">
+           <h1 class="tariffs-title">Наши тарифы</h1>
+           <div class="tariffs-tabs">
+               <a href="#" class="tariff-tab">Неделя</a>
+               <a href="#" class="tariff-tab active">Месяц</a>
+               <a href="#" class="tariff-tab">3 месяца <span class="discount">-20%</span></a>
+               <a href="#" class="tariff-tab">6 месяцев <span class="discount">-30%</span></a>
+               <a href="#" class="tariff-tab">Год <span class="discount">-40%</span></a>
+           </div>
+       </div>
+       <div class="promo-banner">
+           <div class="promo-icon"><img src="images/Prozent.png" alt="Prozent"></div>
+           <div class="promo-text">До 31.12.2025 стоимость всех тарифов снижена на -25%</div>
+       </div>
+       <div class="tariff-cards">
+           <div class="tariff-card">
+               <div class="tariff-header">
+                   <div class="tariff-name-container">
+                       <h2 class="tariff-name">Basic</h2>
+                   </div>
+                   <div class="tariff-price-container">
+                       <div class="original-price">9900 тг.</div>
+                       <div class="tariff-price">9900 тг.</div>
+                       <div class="tariff-period">В МЕСЯЦ ЗА 1 САЙТ</div>
+                   </div>
+               </div>
+              
+               <div class="tariff-features">
+                   <div class="feature">
+                       <span class="feature-text">Данные доступны за 1 неделю</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Аналитика</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature-subtext">
+                       Площадок, категорий, брендов, продавцов, товаров
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Продажи</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Ассортимент</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Скидки</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Новинки</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Sold out</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Листинг</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Рейтинги и отзывы</span>
+                       <span class="info-icon"> <img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                   </div>
+                   <div class="feature-text1">
+                       <div class="feature">
+                           <span class="feature-text">Поиск</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">Акции</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">Баннеры</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                   </div>
+                   <div class="feature-text1">
+                       <div class="feature">
+                           <span class="feature-text">Экспорт</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">API</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">Сравнение периодов</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                   </div>
+               </div>
+               <button class="start-button">Начать прямо сейчас</button>
+           </div>
+           <div class="tariff-card highlighted">
+               <div class="tariff-header">
+                   <div class="tariff-name-container">
+                       <h2 class="tariff-name">Expert</h2>
+                   </div>
+                   <div class="tariff-price-container">
+                       <div class="original-price">13 900 тг.</div>
+                       <div class="tariff-price">12 900 тг..</div>
+                       <div class="tariff-period">В МЕСЯЦ ЗА 1 САЙТ</div>
+                   </div>
+               </div>
+               <div class="tariff-features">
+                   <div class="feature">
+                       <span class="feature-text">Данные доступны за 2 недели</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Аналитика</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature-subtext">
+                       Площадок, категорий, брендов, продавцов, товаров
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Продажи</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Ассортимент</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Скидки</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Новинки</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Sold out</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Листинг</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Рейтинги и отзывы</span>
+                       <span class="info-icon"> <img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                   </div>
+                   <div class="feature-text1">
+                       <div class="feature">
+                           <span class="feature-text">Поиск</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">Акции</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">Баннеры</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                   </div>
+                   <div class="feature-text1">
+                       <div class="feature">
+                           <span class="feature-text">Экспорт</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">API</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">Сравнение периодов</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/NotCorrect.png" alt="NotCorrectIcon"></span>
+                       </div>
+                   </div>
+               </div>
+               <button class="start-button highlighted-button">Начать прямо сейчас</button>
+           </div>
+           <div class="tariff-card">
+               <div class="recommend-badge">РЕКОМЕНДУЕМЫЙ</div>
+               <div class="tariff-header">
+                   <div class="tariff-name-container">
+                       <h2 class="tariff-name">Enterprise</h2>
+                   </div>
+                   <div class="tariff-price-container">
+                       <div class="original-price">21 900 тг.</div>
+                       <div class="tariff-price">21 900 тг</div>
+                       <div class="tariff-period">В МЕСЯЦ ЗА 1 САЙТ</div>
+                   </div>
+               </div>
+               <div class="tariff-features">
+                   <div class="feature">
+                       <span class="feature-text">Данные за всю историю наблюдений</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Аналитика</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature-subtext">
+                       Площадок, категорий, брендов, продавцов, товаров
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Продажи</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Ассортимент</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Скидки</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Новинки</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Sold out</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Листинг</span>
+                       <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature">
+                       <span class="feature-text">Рейтинги и отзывы</span>
+                       <span class="info-icon"> <img src="images/Question2.png" alt="QuestionIcon"></span>
+                       <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                   </div>
+                   <div class="feature-text1">
+                       <div class="feature">
+                           <span class="feature-text">Поиск (до 50 фраз)</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="check-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">Акции</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">Баннеры</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                       </div>
+                   </div>
+                   <div class="feature-text1">
+                       <div class="feature">
+                           <span class="feature-text">Экспорт</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">API</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                       </div>
+                       <div class="feature">
+                           <span class="feature-text">Сравнение периодов</span>
+                           <span class="info-icon"><img src="images/Question2.png" alt="QuestionIcon"></span>
+                           <span class="x-icon"><img src="images/Correct.png" alt="CorrectIcon"></span>
+                       </div>
+                   </div>
+               </div>
+               <button class="start-button coming-soon">Скоро будет доступен</button>
+           </div>
+       </div>
+       <div class="questions-section">
+           <span class="question-text">Остались вопросы?</span>
+           <a href="#" class="video-link">Посмотрите видео</a>
+           <span class="description-text">с подробной демонстрацией возможностей платформы PonyShop</span>
+       </div>
+    </div>
+
+
+
+
+<!-- 7 -->
+<div class="container-7">
+    <h2 class="slider-title-7">Почему с нами удобно?</h2>
+    <div class="groups-container">
+        <div class="group">
+            <div class="ellipse-13">
+                <svg width="19" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 12L7 17L17 7" stroke="#219653" stroke-width="1.5"/>
+                </svg>
+            </div>
+            <p class="report-text">
+                Cмотрите отчеты на нашей платформе, <B>экспортируйте в свою систему</B> аналитики или получайте данные по API.
+            </p>
+        </div>
+        <div class="group">
+            <div class="ellipse-13">
+                <svg width="19" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 12L7 17L17 7" stroke="#219653" stroke-width="1.5"/>
+                </svg>
+            </div>
+            <p class="report-text">
+                <B>Удобная оплата на сайте.</B> Или счет для юр.лица или ИП. Закрывающие документы автоматически появляются в личном кабинете.
+            </p>    
+        </div>
+        <div class="group">
+            <div class="ellipse-13">
+                <svg width="19" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 12L7 17L17 7" stroke="#219653" stroke-width="1.5"/>
+                </svg>
+            </div>
+            <p class="report-text">
+                Не нашли нужный вам отчет или маркетплейс? По запросу построим <B>кастомный отчет</B> в любом удобном вам виде
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- 8 -->
+    <div class="faq-wrapper">
+        <div class="faq-container">
+            <h2>Ответы на ваши вопросы</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Откуда вы знаете продажи каждого товара на wildberries?
+                </button>
+                <div class="faq-answer">
+                    Мы анализируем данные маркетплейсов с помощью API и открытых источников.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Какие данные и отчеты доступны в платформе wecheck?
+                </button>
+                <div class="faq-answer">
+                    В платформе доступны отчеты по продажам, динамике и аналитике.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Как часто обновляются данные?
+                </button>
+                <div class="faq-answer">
+                    Данные обновляются ежедневно.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    На какой период можно оплатить подписку?
+                </button>
+                <div class="faq-answer">
+                    Вы можете оформить подписку на месяц, квартал или год.
+                </div>
+            </div>
+        </div>
+        <div class="parent-container">
+            <div class="telegram-button" onclick="window.open('https://t.me/moustachelik', '_blank')">
+                <img src="logo/telega.png" alt="Telegram_Icon" class="telegram-icon">
+                <span class="telegram-text">Остались вопросы? Задайте в Telegram чате ›</span>
+            </div>
+        </div>
+    </div>
+
+<!-- 9 -->
+    <div class="full-width">
+        <div class="demo-section">
+            <div class="demo-text">
+                <h2>Лучше один раз увидеть</h2>
+                <p>Дадим вам демо-доступ в личный кабинет.<br> Посмотрите как все работает!</p>
+                <a href="#" class="demo-button">Получить демо-доступ</a>
+            </div>
+            <div class="demo-image">
+                <img src="logo/11.png" alt="Иллюстрация демо-доступа">
+            </div>
+        </div>
+    </div>
+
+<!-- 10 -->    
+    <div class="subscription-bar">
+        <p class="subscription-text">
+            Хочешь получать советы по анализу <br> конкурентов? Раз в месяц, без спама
+        </p>
+        <div class="subscription-form">
+            <input type="email" placeholder="Введите ваш емэйл ..." class="email-input">
+            <button class="subscribe-button">Подписаться</button>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">            
+           
+            <div class="contact">
+                <h3>
+                    <span class="emallfutericon"><img src="logo/email.png" alt="Email Icon" class="email-icon">
+                    Свяжитесь с нами</span>
+                </h3>
+                <p>Если у вас остались вопросы или хотите <br>обсудить сотрудничество, пишите:</p>
+                <p>aminalekerova13@gmail.com <br> lekerova707@icloud.com</p>
+            </div>
+
+            <div class="footer-menu">
+                <a href="#">Маркетплейсы</a><br>
+                <a href="#">Парсинг</a><br>
+                <a href="#">Конкуренты</a><br>
+                <a href="#">Главная</a>
+            </div>
+            
+            <div class="social">
+                <h3>Следите за нами<br>в соц сетях</h3>
+                <div class="icons">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="logo/Facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://t.me/moustachelik" target="_blank">
+                        <img src="logo/telega.png" alt="Telegram">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2019-2020 We Check. Все права защищены</p>
+            <p><a href="#">Лицензионное соглашение</a> | <a href="#">Политика конфиденциальности</a></p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
+
+
+

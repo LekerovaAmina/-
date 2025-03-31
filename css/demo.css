@@ -1,0 +1,44 @@
+.full-width {
+    width: 100%; 
+    background-color: #F1FCF6; 
+}
+
+.demo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 50px;
+    background: #F1FCF6;
+    border-radius: 10px;
+}
+.demo-text {
+    max-width: 600px;
+}
+.demo-text h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #333D37;
+    margin-bottom: 20px;
+}
+.demo-text p {
+    font-size: 20px;
+    color: #333D37;
+    line-height: 1.5;
+}
+.demo-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #219653;
+    color: white;
+    font-size: 20px;
+    border-radius: 333px;
+    text-decoration: none;
+}
+.demo-image img {
+    max-width: 400px;
+    height: auto;
+}
